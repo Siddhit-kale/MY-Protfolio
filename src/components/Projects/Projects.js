@@ -70,7 +70,6 @@ function Projects() {
               title="Good Notes"
               description="A notes-writing web app built with the MERN stack and Vite. It features user authentication and allows users to create, update, and delete notes, with data stored in MongoDB and managed via a Node.js backend. React handles the frontend for seamless CRUD operations."
               ghLink="https://github.com/Siddhit-kale/Notes_app_mern_stack"
-              demoLink = "https://notes-app-mern-stack.vercel.app/"
             />
           </Col>
 

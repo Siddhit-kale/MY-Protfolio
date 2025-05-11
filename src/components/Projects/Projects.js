@@ -8,6 +8,7 @@ import SmartINventory from "../../Assets/Projects/Smart-Inventory-Management.jpg
 import Foodvilla from "../../Assets/Projects/Food-villa-1.jpg";
 import Goodnotes from "../../Assets/Projects/GoodNotes.png";
 import Mytwitter from "../../Assets/Projects/My-twitter.png";
+import Healthsync from "../../Assets/Projects/Healthsync.png";
 
 function Projects() {
   return (
@@ -21,6 +22,17 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={Healthsync}
+              isBlog={false}
+              title="HealthSync"
+              description="HealthSync is an web application which solve the patient appointment by providing an digital booking."
+              ghLink="https://github.com/Siddhit-kale/HealthSync"
+              demoLink="https://tdshealthsync.vercel.app/"
+             />
+          </Col>
 
         <Col md={4} className="project-card">
             <ProjectCard
@@ -82,6 +94,7 @@ function Projects() {
               ghLink="https://github.com/Siddhit-kale/ping-pong-game-using-python"
              />
           </Col>
+
         </Row>
       </Container>
     </Container>

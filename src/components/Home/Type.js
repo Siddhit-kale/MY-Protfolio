@@ -8,6 +8,7 @@ function Type() {
         strings: [
           "WEB DEVELOPER",
           "APP DEVELOPER",
+          "SALESFORCE DEVELOPER",
         ],
         autoStart: true,
         loop: true,

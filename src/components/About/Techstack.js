@@ -2,11 +2,15 @@ import React from "react";
 import { Col, Row } from "react-bootstrap";
 import { CgCPlusPlus } from "react-icons/cg";
 import { DiJavascript1, DiReact, DiNodejs, DiPython, DiJava, DiGit } from "react-icons/di";
+import { FaSalesforce } from "react-icons/fa";
 import { SiFlutter, SiDart, SiHtml5, SiPhp, SiCss3, SiBootstrap } from "react-icons/si";
 
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
+      <Col xs={4} md={2} className="tech-icons">
+        <FaSalesforce />
+      </Col>
       <Col xs={4} md={2} className="tech-icons">
         <CgCPlusPlus />
       </Col>
@@ -28,6 +32,7 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons">
         <DiJava />
       </Col>
+      
       <Col xs={4} md={2} className="tech-icons">
         <SiHtml5 /> {/* HTML5 icon */}
       </Col>

@@ -23,16 +23,16 @@ function Home2() {
               <br />
               <br />Good foundation in 
               <i>
-                <b className="purple"> C++ and Java </b>
+                <b className="purple"> C++ and Apex </b>
               </i>
               <br />
               <br />
               My field of Interest's are building new &nbsp;
               <i>
-                <b className="purple">Web and App Products </b> and
+                <b className="purple">Salesforce </b> and
                 also in areas related to{" "}
                 <b className="purple">
-                  Data Science.
+                  web & App.
                 </b>
               </i>
               <br />
@@ -42,7 +42,6 @@ function Home2() {
               <i>
                 <b className="purple">
                   {" "}
-                  and can also developed Native apps & Cross-platform Application.
                 </b>
               </i>
               &nbsp;
